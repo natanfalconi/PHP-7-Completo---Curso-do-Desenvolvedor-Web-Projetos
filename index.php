@@ -95,14 +95,16 @@
                         </li>
                     </ul>
                 </div>
-                <!-- <div class="modulo azul">
+                <div class="modulo azul">
                     <h3>Modulo 03</h3>
                     <ul>
-                        <li><a href="#">Exercicio A</a></li>
-                        <li><a href="#">Exercicio B</a></li>
-                        <li><a href="#">Exercicio C</a></li>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=basico">
+                                Variáveis
+                            </a>
+                        </li>
                     </ul>
-                </div> -->
+                </div>
                 <!-- <div class="modulo roxo">
                     <h3>Modulo 04</h3>
                     <ul>
