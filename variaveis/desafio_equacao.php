@@ -15,10 +15,7 @@ $valor2 = ($numeradorB / $demoninadorB) ** 2;
 
 $demoninadorC = 10 ** 3;
 
-$conta = ($valor1 - $valor2) ** 3 / $demoninadorC;
-
-
-$resultado = $conta;
+$resultado = ($valor1 - $valor2) ** 3 / $demoninadorC;
 
 echo 'O resultado é';
 echo '<br>', $resultado;
