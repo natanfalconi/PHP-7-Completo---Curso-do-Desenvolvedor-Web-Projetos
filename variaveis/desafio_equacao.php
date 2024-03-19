@@ -17,4 +17,4 @@ $demoninadorC = 10 ** 3;
 
 $resultado = ($valor1 - $valor2) ** 3 / $demoninadorC;
 
-echo 'O resultado é ' . $resultado . ".";
+echo "o resultado final é: $resultado.";
