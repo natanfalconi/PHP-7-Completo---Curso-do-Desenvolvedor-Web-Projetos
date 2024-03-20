@@ -21,7 +21,7 @@
         <div class="conteudo">
             <nav class="modulos">
                 <div class="modulo verde">
-                    <h3>Modulo 01</h3>
+                    <h3>Básico</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=basico&file=ola">
@@ -51,7 +51,7 @@
                     </ul>
                 </div>
                 <div class="modulo vermelho">
-                    <h3>Modulo 02</h3>
+                    <h3>Tipos</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=int">
@@ -96,7 +96,7 @@
                     </ul>
                 </div>
                 <div class="modulo azul">
-                    <h3>Modulo 03</h3>
+                    <h3>Variáveis</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=basico">
@@ -111,6 +111,16 @@
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=atribuicoes">
                                 Atribuições
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=interpolacao">
+                                Interpolação
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=variaveis_variaveis">
+                                Variáveis Variáveis
                             </a>
                         </li>
                     </ul>
