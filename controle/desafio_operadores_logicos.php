@@ -34,31 +34,33 @@
 
 <?php
 
-$t1 = $_POST["t1"] === '1';
-$t2 = !!$_POST["t2"];
-$tv = '';
-$sorvete = false;
+if (isset ($_POST["t1"]) && isset ($_POST["t2"])) {
+    $t1 = $_POST["t1"] === '1';
+    $t2 = !!$_POST["t2"];
+    $tv = '';
+    $sorvete = false;
 
-if ($t1 && $t2) {
-    $tv = "TV de 50 Polegadas";
-} else if ($t1 xor $t2) {
-    $tv = "TV de 32 Polegadas";
+    if ($t1 && $t2) {
+        $tv = "TV de 50 Polegadas";
+    } else if ($t1 xor $t2) {
+        $tv = "TV de 32 Polegadas";
+    }
+
+    if ($t1 || $t2) {
+        $sorvete = true;
+    }
+
+    if ($tv) {
+        $resultado = "Vamos comprar uma $tv";
+    } else {
+        $resultado = "Sem TV dessa vez";
+    }
+
+    if (!$sorvete) {
+        $resultado .= '<br>Estamos mais saudáveis!';
+    } else {
+        $resultado .= '<br>Sorvete liberado!';
+    }
+
+    echo "$resultado";
 }
-
-if ($t1 || $t2) {
-    $sorvete = true;
-}
-
-if ($tv) {
-    $resultado = "Vamos comprar uma $tv";
-} else {
-    $resultado = "Sem TV dessa vez";
-}
-
-if (!$sorvete) {
-    $resultado .= '<br>Estamos mais saudáveis!';
-} else {
-    $resultado .= '<br>Sorvete liberado!';
-}
-
-echo "$resultado";
